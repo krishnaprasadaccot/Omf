@@ -1,0 +1,17 @@
+C:\Users\v-kracco\source\repos\Omf\src\Omf.Api\obj\Debug\netcoreapp2.2\Omf.Api.csprojAssemblyReference.cache
+C:\Users\v-kracco\source\repos\Omf\src\Omf.Api\obj\Debug\netcoreapp2.2\Omf.Api.csproj.CoreCompileInputs.cache
+C:\Users\v-kracco\source\repos\Omf\src\Omf.Api\obj\Debug\netcoreapp2.2\Omf.Api.RazorAssemblyInfo.cache
+C:\Users\v-kracco\source\repos\Omf\src\Omf.Api\obj\Debug\netcoreapp2.2\Omf.Api.RazorAssemblyInfo.cs
+C:\Users\v-kracco\source\repos\Omf\src\Omf.Api\obj\Debug\netcoreapp2.2\Omf.Api.AssemblyInfoInputs.cache
+C:\Users\v-kracco\source\repos\Omf\src\Omf.Api\obj\Debug\netcoreapp2.2\Omf.Api.AssemblyInfo.cs
+C:\Users\v-kracco\source\repos\Omf\src\Omf.Api\bin\Debug\netcoreapp2.2\Omf.Api.deps.json
+C:\Users\v-kracco\source\repos\Omf\src\Omf.Api\bin\Debug\netcoreapp2.2\Omf.Api.runtimeconfig.json
+C:\Users\v-kracco\source\repos\Omf\src\Omf.Api\bin\Debug\netcoreapp2.2\Omf.Api.runtimeconfig.dev.json
+C:\Users\v-kracco\source\repos\Omf\src\Omf.Api\bin\Debug\netcoreapp2.2\Omf.Api.dll
+C:\Users\v-kracco\source\repos\Omf\src\Omf.Api\bin\Debug\netcoreapp2.2\Omf.Api.pdb
+C:\Users\v-kracco\source\repos\Omf\src\Omf.Api\bin\Debug\netcoreapp2.2\Omf.Common.dll
+C:\Users\v-kracco\source\repos\Omf\src\Omf.Api\bin\Debug\netcoreapp2.2\Omf.Common.pdb
+C:\Users\v-kracco\source\repos\Omf\src\Omf.Api\obj\Debug\netcoreapp2.2\Omf.Api.RazorTargetAssemblyInfo.cache
+C:\Users\v-kracco\source\repos\Omf\src\Omf.Api\obj\Debug\netcoreapp2.2\Omf.Api.csproj.CopyComplete
+C:\Users\v-kracco\source\repos\Omf\src\Omf.Api\obj\Debug\netcoreapp2.2\Omf.Api.dll
+C:\Users\v-kracco\source\repos\Omf\src\Omf.Api\obj\Debug\netcoreapp2.2\Omf.Api.pdb

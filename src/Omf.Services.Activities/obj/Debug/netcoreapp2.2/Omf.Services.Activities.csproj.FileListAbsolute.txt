@@ -1,0 +1,17 @@
+C:\Users\v-kracco\source\repos\Omf\src\Omf.Services.Activities\obj\Debug\netcoreapp2.2\Omf.Services.Activities.csprojAssemblyReference.cache
+C:\Users\v-kracco\source\repos\Omf\src\Omf.Services.Activities\obj\Debug\netcoreapp2.2\Omf.Services.Activities.csproj.CoreCompileInputs.cache
+C:\Users\v-kracco\source\repos\Omf\src\Omf.Services.Activities\obj\Debug\netcoreapp2.2\Omf.Services.Activities.RazorAssemblyInfo.cache
+C:\Users\v-kracco\source\repos\Omf\src\Omf.Services.Activities\obj\Debug\netcoreapp2.2\Omf.Services.Activities.RazorAssemblyInfo.cs
+C:\Users\v-kracco\source\repos\Omf\src\Omf.Services.Activities\obj\Debug\netcoreapp2.2\Omf.Services.Activities.AssemblyInfoInputs.cache
+C:\Users\v-kracco\source\repos\Omf\src\Omf.Services.Activities\obj\Debug\netcoreapp2.2\Omf.Services.Activities.AssemblyInfo.cs
+C:\Users\v-kracco\source\repos\Omf\src\Omf.Services.Activities\bin\Debug\netcoreapp2.2\Omf.Services.Activities.deps.json
+C:\Users\v-kracco\source\repos\Omf\src\Omf.Services.Activities\bin\Debug\netcoreapp2.2\Omf.Services.Activities.runtimeconfig.json
+C:\Users\v-kracco\source\repos\Omf\src\Omf.Services.Activities\bin\Debug\netcoreapp2.2\Omf.Services.Activities.runtimeconfig.dev.json
+C:\Users\v-kracco\source\repos\Omf\src\Omf.Services.Activities\bin\Debug\netcoreapp2.2\Omf.Services.Activities.dll
+C:\Users\v-kracco\source\repos\Omf\src\Omf.Services.Activities\bin\Debug\netcoreapp2.2\Omf.Services.Activities.pdb
+C:\Users\v-kracco\source\repos\Omf\src\Omf.Services.Activities\bin\Debug\netcoreapp2.2\Omf.Common.dll
+C:\Users\v-kracco\source\repos\Omf\src\Omf.Services.Activities\bin\Debug\netcoreapp2.2\Omf.Common.pdb
+C:\Users\v-kracco\source\repos\Omf\src\Omf.Services.Activities\obj\Debug\netcoreapp2.2\Omf.Services.Activities.RazorTargetAssemblyInfo.cache
+C:\Users\v-kracco\source\repos\Omf\src\Omf.Services.Activities\obj\Debug\netcoreapp2.2\Omf.Services.Activities.csproj.CopyComplete
+C:\Users\v-kracco\source\repos\Omf\src\Omf.Services.Activities\obj\Debug\netcoreapp2.2\Omf.Services.Activities.dll
+C:\Users\v-kracco\source\repos\Omf\src\Omf.Services.Activities\obj\Debug\netcoreapp2.2\Omf.Services.Activities.pdb

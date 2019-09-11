@@ -1,0 +1,9 @@
+C:\Users\v-kracco\source\repos\Omf\src\Omf.Common\bin\Debug\netstandard2.0\Omf.Common.deps.json
+C:\Users\v-kracco\source\repos\Omf\src\Omf.Common\bin\Debug\netstandard2.0\Omf.Common.dll
+C:\Users\v-kracco\source\repos\Omf\src\Omf.Common\bin\Debug\netstandard2.0\Omf.Common.pdb
+C:\Users\v-kracco\source\repos\Omf\src\Omf.Common\obj\Debug\netstandard2.0\Omf.Common.csprojAssemblyReference.cache
+C:\Users\v-kracco\source\repos\Omf\src\Omf.Common\obj\Debug\netstandard2.0\Omf.Common.csproj.CoreCompileInputs.cache
+C:\Users\v-kracco\source\repos\Omf\src\Omf.Common\obj\Debug\netstandard2.0\Omf.Common.AssemblyInfoInputs.cache
+C:\Users\v-kracco\source\repos\Omf\src\Omf.Common\obj\Debug\netstandard2.0\Omf.Common.AssemblyInfo.cs
+C:\Users\v-kracco\source\repos\Omf\src\Omf.Common\obj\Debug\netstandard2.0\Omf.Common.dll
+C:\Users\v-kracco\source\repos\Omf\src\Omf.Common\obj\Debug\netstandard2.0\Omf.Common.pdb
