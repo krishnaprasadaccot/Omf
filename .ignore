@@ -1,0 +1,5 @@
+src/Omf.Api/bin/
+src/Omf.Api/obj/
+src/Omf.Api.Tests/obj/
+src/Omf.Services.Activities.Tests/obj/
+src/Omf.Services.Identity.Tests/obj/
