@@ -7,6 +7,7 @@ using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
+using Omf.Common.Commands;
 using Omf.Common.Events;
 using Omf.Common.Services;
 
@@ -18,7 +19,7 @@ namespace Omf.Services.Order
         {
             ServiceHost.Create<Startup>(args)
                 .UseRabbitMq()
-                .SubscribeToEvent<ActivityCreated>()
+                .SubscribeToCommand<CreateOrder>()
                 .Build()
                 .Run();
         }
