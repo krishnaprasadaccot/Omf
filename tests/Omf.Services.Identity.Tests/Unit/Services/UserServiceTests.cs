@@ -1,7 +1,5 @@
 ﻿using Omf.Common.Auth;
-using Omf.Services.Identity.Domain.Models;
-using Omf.Services.Identity.Domain.Repositories;
-using Omf.Services.Identity.Domain.Services;
+using Omf.Services.Customer.Domain.Models;
 using FluentAssertions;
 using Moq;
 using System;
@@ -9,8 +7,10 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 using Xunit;
+using Omf.Services.Customer.Domain.Repositories;
+using Omf.Services.Customer.Domain.Services;
 
-namespace Omf.Services.Identity.Tests.Unit.Services
+namespace Omf.Services.Customer.Tests.Unit.Services
 {
     public class UserServiceTests
     {

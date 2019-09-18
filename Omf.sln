@@ -1,33 +1,31 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2617396D-AE82-461D-92AB-105BD3356747}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Omf.Api", "src\Omf.Api\Omf.Api.csproj", "{B0265DB7-D723-4D83-ABC0-291D5BE4FCB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Omf.Api", "src\Omf.Api\Omf.Api.csproj", "{B0265DB7-D723-4D83-ABC0-291D5BE4FCB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Omf.Common", "src\Omf.Common\Omf.Common.csproj", "{00616E7A-BB41-4DF7-A38C-6CF422F733DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Omf.Common", "src\Omf.Common\Omf.Common.csproj", "{00616E7A-BB41-4DF7-A38C-6CF422F733DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Omf.Services.Activities", "src\Omf.Services.Activities\Omf.Services.Activities.csproj", "{4670BE19-F4E4-4D09-B586-783F1B03E54E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Omf.Services.Activities", "src\Omf.Services.Activities\Omf.Services.Activities.csproj", "{4670BE19-F4E4-4D09-B586-783F1B03E54E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Omf.Services.Identity", "src\Omf.Services.Identity\Omf.Services.Identity.csproj", "{FF773B50-6088-4E00-A090-512DA2D77140}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Omf.Services.Customer", "src\Omf.Services.Identity\Omf.Services.Customer.csproj", "{FF773B50-6088-4E00-A090-512DA2D77140}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{FE473157-2B64-4A72-83A4-AC33870C1635}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Omf.Api.Tests", "tests\Omf.Api.Tests\Omf.Api.Tests.csproj", "{84C989EA-FB01-4C4E-AA4E-BA3E747FE48E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Omf.Api.Tests", "tests\Omf.Api.Tests\Omf.Api.Tests.csproj", "{84C989EA-FB01-4C4E-AA4E-BA3E747FE48E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Omf.Services.Activities.Tests", "tests\Omf.Services.Activities.Tests\Omf.Services.Activities.Tests.csproj", "{D9A0E397-A0D4-418C-9BD6-2446ACFADFF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Omf.Services.Activities.Tests", "tests\Omf.Services.Activities.Tests\Omf.Services.Activities.Tests.csproj", "{D9A0E397-A0D4-418C-9BD6-2446ACFADFF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Omf.Services.Identity.Tests", "tests\Omf.Services.Identity.Tests\Omf.Services.Identity.Tests.csproj", "{DC3EEBFD-FAD7-470B-8736-FB8DFEA0E7D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Omf.Services.Customer.Tests", "tests\Omf.Services.Identity.Tests\Omf.Services.Customer.Tests.csproj", "{DC3EEBFD-FAD7-470B-8736-FB8DFEA0E7D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Omf.Services.Customer", "src\Omf.Services.Customer\Omf.Services.Customer.csproj", "{88AA3D42-364B-4045-B563-9F2D590D1F6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Omf.Services.Search", "src\Omf.Services.Search\Omf.Services.Search.csproj", "{425B7F3E-86EF-4B5E-9FB0-379FBDD9D9E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Omf.Services.Search", "src\Omf.Services.Search\Omf.Services.Search.csproj", "{425B7F3E-86EF-4B5E-9FB0-379FBDD9D9E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Omf.Services.Order", "src\Omf.Services.Order\Omf.Services.Order.csproj", "{B11E88C6-D7B3-44AF-907D-75D0036261EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Omf.Services.Order", "src\Omf.Services.Order\Omf.Services.Order.csproj", "{B11E88C6-D7B3-44AF-907D-75D0036261EC}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Omf.Services.Review", "src\Omf.Services.Review\Omf.Services.Review.csproj", "{09F04FE9-10FE-43BF-8F7D-D2F771191B63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Omf.Services.Review", "src\Omf.Services.Review\Omf.Services.Review.csproj", "{09F04FE9-10FE-43BF-8F7D-D2F771191B63}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,9 +35,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{B0265DB7-D723-4D83-ABC0-291D5BE4FCB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -126,18 +121,6 @@ Global
 		{DC3EEBFD-FAD7-470B-8736-FB8DFEA0E7D7}.Release|x64.Build.0 = Release|Any CPU
 		{DC3EEBFD-FAD7-470B-8736-FB8DFEA0E7D7}.Release|x86.ActiveCfg = Release|Any CPU
 		{DC3EEBFD-FAD7-470B-8736-FB8DFEA0E7D7}.Release|x86.Build.0 = Release|Any CPU
-		{88AA3D42-364B-4045-B563-9F2D590D1F6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{88AA3D42-364B-4045-B563-9F2D590D1F6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{88AA3D42-364B-4045-B563-9F2D590D1F6C}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{88AA3D42-364B-4045-B563-9F2D590D1F6C}.Debug|x64.Build.0 = Debug|Any CPU
-		{88AA3D42-364B-4045-B563-9F2D590D1F6C}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{88AA3D42-364B-4045-B563-9F2D590D1F6C}.Debug|x86.Build.0 = Debug|Any CPU
-		{88AA3D42-364B-4045-B563-9F2D590D1F6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{88AA3D42-364B-4045-B563-9F2D590D1F6C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{88AA3D42-364B-4045-B563-9F2D590D1F6C}.Release|x64.ActiveCfg = Release|Any CPU
-		{88AA3D42-364B-4045-B563-9F2D590D1F6C}.Release|x64.Build.0 = Release|Any CPU
-		{88AA3D42-364B-4045-B563-9F2D590D1F6C}.Release|x86.ActiveCfg = Release|Any CPU
-		{88AA3D42-364B-4045-B563-9F2D590D1F6C}.Release|x86.Build.0 = Release|Any CPU
 		{425B7F3E-86EF-4B5E-9FB0-379FBDD9D9E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{425B7F3E-86EF-4B5E-9FB0-379FBDD9D9E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{425B7F3E-86EF-4B5E-9FB0-379FBDD9D9E9}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -175,6 +158,9 @@ Global
 		{09F04FE9-10FE-43BF-8F7D-D2F771191B63}.Release|x86.ActiveCfg = Release|Any CPU
 		{09F04FE9-10FE-43BF-8F7D-D2F771191B63}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B0265DB7-D723-4D83-ABC0-291D5BE4FCB1} = {2617396D-AE82-461D-92AB-105BD3356747}
 		{00616E7A-BB41-4DF7-A38C-6CF422F733DE} = {2617396D-AE82-461D-92AB-105BD3356747}
@@ -183,9 +169,11 @@ Global
 		{84C989EA-FB01-4C4E-AA4E-BA3E747FE48E} = {FE473157-2B64-4A72-83A4-AC33870C1635}
 		{D9A0E397-A0D4-418C-9BD6-2446ACFADFF7} = {FE473157-2B64-4A72-83A4-AC33870C1635}
 		{DC3EEBFD-FAD7-470B-8736-FB8DFEA0E7D7} = {FE473157-2B64-4A72-83A4-AC33870C1635}
-		{88AA3D42-364B-4045-B563-9F2D590D1F6C} = {2617396D-AE82-461D-92AB-105BD3356747}
 		{425B7F3E-86EF-4B5E-9FB0-379FBDD9D9E9} = {2617396D-AE82-461D-92AB-105BD3356747}
 		{B11E88C6-D7B3-44AF-907D-75D0036261EC} = {2617396D-AE82-461D-92AB-105BD3356747}
 		{09F04FE9-10FE-43BF-8F7D-D2F771191B63} = {2617396D-AE82-461D-92AB-105BD3356747}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2A567A8-57D6-47D0-878D-8AFD19650701}
 	EndGlobalSection
 EndGlobal

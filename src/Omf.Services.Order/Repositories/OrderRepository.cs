@@ -17,7 +17,15 @@ namespace Omf.Services.Order.Repositories
             _database = db;
         }
         public async Task AddAsync(Domain.Models.Order order)
-            => await Collection.InsertOneAsync(order);
+        {
+            if (order.Status != Common.OrderStatus.Active)
+            {
+                var query = Builders<Domain.Models.Order>.Filter.Where(o => o.Id == order.Id);
+                await Collection.DeleteOneAsync(query);
+            }
+            await Collection.InsertOneAsync(order);
+        }
+           
 
         public async Task<Domain.Models.Order> GetAsync(Guid id) => await Collection.AsQueryable().FirstOrDefaultAsync(x => x.Id == id);
 

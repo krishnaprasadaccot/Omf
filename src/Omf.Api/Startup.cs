@@ -36,8 +36,11 @@ namespace Omf.Api
             services.AddRabbitMq(Configuration);
             services.AddJwt(Configuration);
             services.AddTransient<IEventHandler<ActivityCreated>, ActivityCreatedHandler>();
-            //services.AddScoped<IEventHandler<UserAuthenticated>, UserAuthenticatedHandler>();
             services.AddTransient<IActivityRepository, ActivityRepository>();
+            services.AddTransient<IEventHandler<OrderCreated>, OrderCreatedHandler>();
+            services.AddTransient<IOrderRepository, OrderRepository>();
+            services.AddTransient<IEventHandler<ReviewCreated>, ReviewCreatedHandler>();
+            services.AddTransient<IReviewRepository, ReviewRepository>();
 
         }
 
