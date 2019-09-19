@@ -15,9 +15,9 @@ namespace Omf.Services.Search.Services
         {
             _restaurantRepository = restaurantRepository;
         }
-        public async Task AddAsync(Guid id, string name, string cuisine, string address, IEnumerable<Dish> menu, DateTime createdDate)
+        public async Task AddAsync(Guid id, string name, string cuisine, string address, IEnumerable<object> menu, DateTime createdDate)
         {
-            var restaurant = new Restaurant(id, name, cuisine, address, menu, createdDate);
+            var restaurant = new Restaurant(id, name, cuisine, address, createdDate);
             await _restaurantRepository.AddAsync(restaurant);
         }
     }

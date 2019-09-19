@@ -20,7 +20,7 @@ namespace Omf.Services.Search.Domain.Models
         {
 
         }
-        public Restaurant(Guid id, string name, string cuisine, string address, IEnumerable<Dish> menu, DateTime createdDate)
+        public Restaurant(Guid id, string name, string cuisine, string address, DateTime createdDate)
         {
             if (string.IsNullOrEmpty(name))
             {
@@ -30,7 +30,6 @@ namespace Omf.Services.Search.Domain.Models
             Name = name;
             Cuisine = cuisine;
             Address = address;
-            Menu = menu;
             CreatedAt = createdDate;
         }
     }

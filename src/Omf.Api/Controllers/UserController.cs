@@ -27,7 +27,7 @@ namespace Omf.Api.Controllers
             return Accepted();
         }
 
-        [HttpGet("")]
+        [HttpGet("[action]")]
 
         public async Task<IActionResult> GetReviews()
         {

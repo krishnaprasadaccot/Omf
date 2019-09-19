@@ -13,6 +13,10 @@ using Microsoft.Extensions.Options;
 using Omf.Common.Commands;
 using Omf.Common.Mongo;
 using Omf.Common.RabbitMq;
+using Omf.Services.Search.Domain.Repositories;
+using Omf.Services.Search.Handlers;
+using Omf.Services.Search.Repositories;
+using Omf.Services.Search.Services;
 
 namespace Omf.Services.Search
 {
@@ -31,6 +35,9 @@ namespace Omf.Services.Search
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddRabbitMq(Configuration);
             services.AddMongoDB(Configuration);
+            services.AddTransient<ICommandHandler<CreateRestaurant>, CreateRestaurantHandler>();
+            services.AddTransient<IRestaurantRepository, RestaurantRepository>();
+            services.AddTransient<IRestaurantService, RestaurantService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

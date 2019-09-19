@@ -35,12 +35,12 @@ namespace Omf.Api
             services.AddMongoDB(Configuration);
             services.AddRabbitMq(Configuration);
             services.AddJwt(Configuration);
-            services.AddTransient<IEventHandler<ActivityCreated>, ActivityCreatedHandler>();
-            services.AddTransient<IActivityRepository, ActivityRepository>();
             services.AddTransient<IEventHandler<OrderCreated>, OrderCreatedHandler>();
             services.AddTransient<IOrderRepository, OrderRepository>();
             services.AddTransient<IEventHandler<ReviewCreated>, ReviewCreatedHandler>();
             services.AddTransient<IReviewRepository, ReviewRepository>();
+            services.AddTransient<IEventHandler<RestaurantCreated>, RestaurantCreatedHandler>();
+            services.AddTransient<IRestaurantRepository, RestaurantRepository>();
 
         }
 
@@ -51,13 +51,6 @@ namespace Omf.Api
             {
                 app.UseDeveloperExceptionPage();
             }
-            else
-            {
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-                //app.UseHsts();
-            }
-            //app.UseAuthentication();
-            //app.UseHttpsRedirection();
             app.ApplicationServices.GetService<IDatabaseInitializer>().InitializeAsync();
             app.UseMvc();
         }

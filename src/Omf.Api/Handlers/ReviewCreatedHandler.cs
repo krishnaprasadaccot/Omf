@@ -26,7 +26,7 @@ namespace Omf.Api.Handlers
                 Rating = @event.Rating,
                 CreatedAt = @event.CreatedAt
             });
-            Console.WriteLine($"Order Created: {@event.Id}");
+            Console.WriteLine($"Review Created: {@event.Id}");
         }
     }
 }

@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Omf.Services.Identity\Omf.Services.Customer.csproj" />
+    <ProjectReference Include="..\..\src\Omf.Services.Customer\Omf.Services.Customer.csproj" />
   </ItemGroup>
 
 </Project>

@@ -8,6 +8,6 @@ namespace Omf.Services.Search.Services
 {
     public interface IRestaurantService
     {
-        Task AddAsync(Guid id, string name, string cuisine, string address, IEnumerable<Dish> menu, DateTime createdDate);
+        Task AddAsync(Guid id, string name, string cuisine, string address, IEnumerable<object> menu, DateTime createdDate);
     }
 }

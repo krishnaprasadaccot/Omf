@@ -1,0 +1,5 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/tests/Omf.Services.Identity.Tests/obj/Release/netcoreapp2.2/Omf.Services.Identity.Tests.csproj.CoreCompileInputs.cache

@@ -11,9 +11,9 @@ namespace Omf.Api
         {
             ServiceHost.Create<Startup>(args)
                 .UseRabbitMq()
-                .SubscribeToEvent<ActivityCreated>()
                 .SubscribeToEvent<OrderCreated>()
                 .SubscribeToEvent<ReviewCreated>()
+                .SubscribeToEvent<RestaurantCreated>()
                 .Build()
                 .Run();
         }
